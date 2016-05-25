@@ -1,0 +1,45 @@
+body{
+margin:0;
+background-color:grey;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+  display: block;
+}
+ul,li{
+margin:0;
+padding:0;}
+h1,h2,h3,h4,h5,h6,label,p,div,section,figure {
+    margin: 0;
+}
+
+li{
+list-style-type:none;}
+.main{
+min-height:700px;
+position:relative;
+padding:3em ;
+}
+.menu li p{
+display:inline-block}
+.name{
+display:inline-block;}
+.container{
+width:1216px;
+}
+figure{
+display:inline-block;
+}
+figure img{
+width:100%;
+height:auto;
+}
+.menu li{
+display:inline;
+}
+.generaltable{
+background-color:#fff;}
+.checklist{
+background-color:#fff;
+width:70%;}
+.samplephotos{
+margin-top:50px;}

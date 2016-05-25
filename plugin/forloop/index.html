@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Sample Code</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+<div class="main">
+<div class="container">
+<table class="generaltable"style="width:20%">
+  <tr>
+    <td><p>FullName</p></td>
+    <td><p>Gender</p></td>
+  </tr>
+    <tr class="tabledata">
+   <td><p class="naming">Eve</p></td>
+    <td>
+	<input type="radio" class="mname" name="gender1" value="male">male
+    <input type="radio"  class="fname" name="gender1" value="female">female
+    </td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="naming">chandru</p>	</td>
+    <td><input type="radio" class="mname" name="gender2" value="male">male
+    <input type="radio"  class="fname" name="gender2" value="female">female
+    </td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="naming">John</p>	</td>
+    <td><input type="radio"  class="mname" name="gender3" value="male">male
+    <input type="radio"   class="fname" name="gender3" value="female">female
+    </td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="naming">Johnparker</p></td>
+    <td><input type="radio" class="mname" name="gender4" value="male">male
+    <input type="radio"  class="fname" name="gender4" value="female">female
+    </td>
+  </tr>
+</table>
+ <input type="button" onclick="getradiovalue()" value="Go">
+</div>
+<div id="select" style="display:none">
+<table class="generaltable" style="width:20%">
+  <tr>
+    <td><p>Selected list</p></td>
+    <td><p>Gender</p></td>
+  </tr>
+    <tr class="tabledata">
+    <td><p class="selected"></p></td>
+    <td><p class="gender"></p></td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="selected"></p></td>
+    <td><p class="gender"></p></td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="selected"></p></td>
+    <td><p class="gender"></p></td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="selected"></p></td>
+    <td><p class="gender"></p></td>
+  </tr>
+
+</table>
+ <input  type="button" onclick="getradiovalue()" value="Undo">
+ </div>
+ <div id="Unselect" style="display:none">
+<table class="generaltable" style="width:20%">
+  <tr>
+    <td><p>Unselected list</p></td>
+	    <td><p>Gender</p></td>
+  </tr>
+    <tr class="tabledata">
+    <td><p class="nonselected"></p></td>
+    <td><p class="nongender"></p></td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="nonselected"></p></td>
+    <td><p class="nongender"></p></td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="nonselected"></p></td>
+    <td><p class="nongender"></p></td>
+    </tr>
+    <tr class="tabledata">
+    <td><p class="nonselected"></p></td>
+    <td><p class="nongender"></p></td>
+  </tr>
+
+</table>
+ <input  type="button" onclick="getradiovalue()" value="Undo">
+ </div>
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
