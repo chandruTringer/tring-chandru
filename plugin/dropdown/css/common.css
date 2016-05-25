@@ -1,0 +1,88 @@
+body{
+margin:0;
+background-color:#fff;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+  display: block;
+}
+ul,li{
+margin:0;
+padding:0;}
+h1,h2,h3,h4,h5,h6,label,p,div,section,figure ,div{
+    margin: 0;
+	padding:0;
+}
+
+li{
+list-style-type:none;}
+}
+figure{
+display:inline-block;
+}
+ img{
+width:100%;
+height:auto;
+}
+ .maincontent section:first-child div.parentcontent{
+height:0px;
+transition:all 0.5s ease 0s;
+}
+.maincontent section div.parentcontent{
+height:0px;
+overflow:hidden;
+transition:all 0.5s ease 0s;
+}
+.main{
+padding:20px;}
+.main-content{
+padding:20px;	
+}
+.demo{
+ color: #2E4d7B;
+ }
+.header{
+  border: 1px solid #2F4F4F;
+  color: white;
+  background-color: #2E4d7B;
+  font-family: Arial, Sans-Serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  }
+  .header a{
+  text-decoration:none;
+  color:#fff;
+  background:none;
+  }
+#container{
+  margin:auto;
+  overflow: hidden;
+  position:relative;
+
+}
+.accordionHeaderSelected {
+  border: 1px solid #2F4F4F;
+  color: white;
+  background-color: #5078B3;
+  font-family: Arial, Sans-Serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  }
+.carousal{
+transition:all 0.7s ease 0s;
+font-size:0px;
+display:block;
+opacity:0;
+}
+.content{
+  background-color: #D3DEEF;
+  border: 1px dashed #2F4F4F;
+  border-top: none;
+  padding: 5px;
+  padding-top: 10px;
+}

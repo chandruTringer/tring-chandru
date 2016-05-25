@@ -1,0 +1,27 @@
+body{
+margin:0;
+background-color:grey;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+  display: block;
+}
+h1,h2,h3,h4,h5,h6,label,p,div,section {
+    margin: 0;
+}
+.main{
+min-height:700px;
+position:relative;
+padding:3em ;
+}
+.container{
+width:1216px;
+}
+figure{
+margin:0px;
+display:inline-block;
+
+}
+figure img{
+width:100%;
+height:auto;
+}
